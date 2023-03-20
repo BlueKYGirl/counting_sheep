@@ -1,2 +1,8 @@
-# counting_sheep
-A project to examine a month's worth of Watch-generated sleep data to find patterns, correlations, and the recipe for a good night's sleep.
+This README is a work in progress and may contain outdated or innaccurate information.
+
+# Counting Sheep, Courting Sleep
+## Using Python Data Analysis Tools to Find the Recipe for a Good Night's Sleep
+### by Toni Moore
+
+
+
