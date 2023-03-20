@@ -23,7 +23,7 @@ I've been an insomniac and a restless sleeper for as long as I can remember. My 
 
 Unfortunately, I still haven't learned.
 
-With the ability to get fairly accurate sleep data from my Apple Watch, accurate enough the Apple Watch data is often used as suppplemental data by medical sleep specialists when patients submit to professional sleep studies, I wanted to track my sleep for one month to try to find trends and correlations between different sleep supplements I use, the different sleep hygeine behaviors I employ, and the indicators for healthy sleep tracked by Watch software: awake time, core sleep, REM sleep, deep sleep, heart rate range, and resiratory rate range.
+With the ability to get fairly accurate sleep data from my Apple Watch, accurate enough that Apple Watch data is often used as suppplemental data by medical sleep specialists when patients submit to professional sleep studies, I wanted to track my sleep for one month to try to find trends and correlations between different sleep supplements I use, the different sleep hygeine behaviors I employ, and the indicators for healthy sleep tracked by Watch software: awake time, core sleep, REM sleep, deep sleep, heart rate range, and resiratory rate range.
 
 The questions I want answered are:
 
@@ -34,9 +34,9 @@ The questions I want answered are:
 
 For this particular project, REM and deep sleep will be singled out. Early informal investigations of my sleep tracking data on my Watch showed that I do not spend as much time in REM and deep sleep as other healthy adults my age. According to Healthline, most adults spend 20-25% of their sleep in REM, or rapid eye movement sleep, and 13-23% in deep sleep, where physical healing and memory formation takes place. 
 
-Since I am very rarely at those numbers, my focus will be on the supplements and behaviors that correlate with the highest percentages from my Watch data. 
+Since I am very rarely at those numbers, my focus will be on the supplements and behaviors that correlate with the highest percentages from my Watch data. At this time, I am not over any of the recommended percentages in any recorded metrics.
 
-Data was gathered from wearing my Apple Watch nightly for one month and making sure the Watch was in "Bedtime" mode upon retiring for the night. Each morning, the outputs from the Health app on my phone were entered into the following Google Form used for recording this data in a quick and user-friendly way:
+Data was gathered by wearing my Apple Watch nightly for one month and making sure the Watch was in "Bedtime" mode upon retiring for the night. Each morning, the outputs from the Health app on my phone were entered into the following Google Form used for recording this data in a quick and user-friendly way:
 
 [Sleep Tracking Input Form](https://forms.gle/MngG8s4dmk8k6TRK6)
 
@@ -47,7 +47,9 @@ This Form linked to a Google Sheet containing all the data in a tabular format. 
 
 ### Necessary Installs
 
-The data analysis file, Counting_Sheep.ipynb, can be opened in an IDE that has the necessary extensions to open a Jupyter Notebook. (Visual Studio Code was used for this project.) Google Colab is a free Jupyter Notebook environment that could be used to open and run the project code. [Anaconda](https://www.anaconda.com/products/distribution) is recommended as it already has the necessary packages and libraries in this project installed. If you do not have Anaconda installed, you may install the necessary packages individually at your Terminal or Windows Powershell command lines. This project uses pandas, Numpy, and Matplotlib.
+The data analysis file, Counting_Sheep.ipynb, can be opened in an IDE that has the necessary extensions to open a Jupyter Notebook. (Visual Studio Code was used for this project.) Google Colab is a free Jupyter Notebook environment that could be used to open and run the project code. 
+
+[Anaconda](https://www.anaconda.com/products/distribution) is recommended as it already has the necessary packages and libraries in this project installed. If you do not have Anaconda installed, you may install the necessary packages individually at your Terminal or Windows Powershell command lines. This project uses pandas, Numpy, and Matplotlib.
 
 pip install pandas
 
@@ -57,7 +59,9 @@ python -m pip install -U pip
 
 python -m pip install -U matplotlib
 
+A requirements.txt is also included in the repo of this project. To use that file to install all necessary packages and libraries, type the following code into your Terminal or Windows Powershell command lines:
 
+pip install -r requirements.txt
 
 
 
