@@ -23,6 +23,9 @@ I've been an insomniac and a restless sleeper for as long as I can remember. Fam
 
 Unfortunately, I still haven't learned.
 
+![sleep gif](https://media.giphy.com/media/mF4k0YXIHDHzy/giphy.gif)
+
+
 With the ability to get fairly accurate sleep data from my Apple Watch, accurate enough that Apple Watch data is often used as suppplemental data by medical sleep specialists when patients submit to professional sleep studies, I wanted to track my sleep for one month to try to find trends and correlations between different sleep supplements I use, the different sleep hygeine behaviors I employ, and the indicators for healthy sleep tracked by Watch software: awake time, core sleep, REM sleep, deep sleep, heart rate range, and resiratory rate range.
 
 The questions I want answered are:
@@ -66,11 +69,11 @@ The data analysis file, Counting_Sheep.ipynb, can be opened in an IDE that has t
 
 [Anaconda](https://www.anaconda.com/products/distribution) is recommended as it already has the necessary packages and libraries in this project installed. If you do not have Anaconda installed, you may install the necessary packages individually at your Terminal or Windows Powershell command lines. This project uses pandas, Numpy, and Matplotlib.
 
+python -m pip install -U pip
+
 pip install pandas
 
 pip install numpy
-
-python -m pip install -U pip
 
 python -m pip install -U matplotlib
 
