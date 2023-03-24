@@ -26,7 +26,7 @@ Unfortunately, I still haven't learned.
 ![sleep gif](https://media.giphy.com/media/mF4k0YXIHDHzy/giphy.gif)
 
 
-With the ability to get fairly accurate sleep data from my Apple Watch, accurate enough that Apple Watch data is often used as suppplemental data by medical sleep specialists when patients submit to professional sleep studies, I wanted to track my sleep for one month to try to find trends and correlations between different sleep supplements I use, the different sleep hygeine behaviors I employ, and the indicators for healthy sleep tracked by Watch software: awake time, core sleep, REM sleep, deep sleep, heart rate range, and resiratory rate range.
+With the ability to get fairly accurate sleep data from my Apple Watch, accurate enough that Apple Watch data is often used as suppplemental data by medical sleep specialists when patients submit to professional sleep studies, I wanted to track my sleep for one month to try to find trends and correlations between different sleep supplements I use, the different sleep hygeine behaviors I employ, and the indicators for healthy sleep tracked by Watch software: awake time, core sleep, REM sleep, deep sleep, heart rate range, and respiratory rate range.
 
 The questions I want answered are:
 
@@ -39,7 +39,7 @@ For this particular project, REM and deep sleep will be singled out. Early infor
 
 Since I am very rarely at those numbers, my focus will be on the supplements and behaviors that correlate with the highest percentages from my Watch data. At this time, I am not over any of the recommended percentages in any recorded metrics.
 
-Data was gathered by wearing my Apple Watch nightly for one month and making sure the Watch was in "Bedtime" mode upon retiring for the night. Each morning, the outputs from the Health app on my phone were entered into the following Google Form used for recording this data in a quick and user-friendly way:
+Data was gathered by wearing my Apple Watch nightly for one month and making sure the Watch was in "Sleep" or "Bedtime" mode upon retiring for the night. Each morning, the outputs from the Health app on my phone were entered into the following Google Form used for recording this data in a quick and user-friendly way:
 
 [Sleep Tracking Input Form](https://forms.gle/MngG8s4dmk8k6TRK6)
 
