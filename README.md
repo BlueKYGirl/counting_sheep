@@ -50,13 +50,13 @@ This Form linked to a Google Sheet containing all the data in a tabular format. 
 
 The column headings used in the data analysis correspond to the recorded metrics and to supplements and sleep behaviors. The following labels may help the reader going forward if they are defined and explained:
 
-awake_pct (percentage of recorded sleep time spent in a wakeful state)
+**awake_pct** (percentage of recorded sleep time spent in a wakeful state)
 
-rem_pct (percentage of recorded sleep in REM, or Rapid Eye Movement sleep; this is also known as stage 3 sleep)
+**rem_pct** (percentage of recorded sleep in REM, or Rapid Eye Movement sleep; this is also known as stage 3 sleep)
 
-core_pct (percentage of recorded sleep in core, or stage 1 and stage 2 light sleep)
+**core_pct** (percentage of recorded sleep in core, or stage 1 and stage 2 light sleep)
 
-deep_pct (percentage of recorded sleep in deep stage 4 sleep)
+**deep_pct** (percentage of recorded sleep in deep stage 4 sleep)
 
 Supplements that were tracked include oral melatonin capsules (3mg), oral magnesium capsules (250mg), Neuriva combination oral supplement capsules (contains melatonin, l-theanine, and ashwagandha), and chamomile tea. These were all taken with a physician's knowledge and consent and I was informed about what could be taken together and what could not. 
 
@@ -65,21 +65,21 @@ Sleep hygeine behaviors tracked included baths, showers, and guided sleep medita
 
 ### Necessary Installs
 
-The data analysis file, Counting_Sheep.ipynb, can be opened in an IDE that has the necessary extensions to open a Jupyter Notebook. (Visual Studio Code was used for this project.) Google Colab is a free Jupyter Notebook environment that could be used to open and run the project code. 
+The data analysis file, Counting_Sheep.ipynb, can be opened in an IDE that has the necessary extensions to open a Jupyter Notebook. (Visual Studio Code was used for this project.) [Google Colab](https://colab.research.google.com/) is a free Jupyter Notebook environment that could be used to open and run the project code. 
 
 [Anaconda](https://www.anaconda.com/products/distribution) is recommended as it already has the necessary packages and libraries in this project installed. If you do not have Anaconda installed, you may install the necessary packages individually at your Terminal or Windows Powershell command lines. This project uses pandas, Numpy, and Matplotlib.
 
-python -m pip install -U pip
+`python -m pip install -U pip`
 
-pip install pandas
+`pip install pandas`
 
-pip install numpy
+`pip install numpy`
 
-python -m pip install -U matplotlib
+`pip install matplotlib`
 
 A requirements.txt is also included in the repo of this project. To use that file to install all necessary packages and libraries, type the following code into your Terminal or Windows Powershell command lines:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ### Potential Error Message in Line 23
 
