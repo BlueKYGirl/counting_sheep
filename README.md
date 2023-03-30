@@ -81,6 +81,16 @@ A requirements.txt is also included in the repo of this project. To use that fil
 
 `pip install -r requirements.txt`
 
+### Features 
+
+The following features, required in the Data Analysis Course 1 project guidelines, can be seen in this project:
+
+* Data read from a local CSV file
+* Multiple built-in pandas functions to clean the data (found in the Reading and Cleaning subsection of the project)
+* Multiple basic calculations with pandas, including but not limited to: sum(), mean(), max(), min(), and corr()
+* Three basic plots using matplotlib
+* Markdown cells between all code cells explaining my process and reasoning for that code
+
 ### Potential Error Message in Line 23
 
 On machines without the newest version of pandas, the correlation function at line 23 may not run and may throw a code about the the "numeric_only" parameter. In the newest version of pandas, the default value of "numeric_only" in the corr() function was changed from True to False, and to not include that parameter throws a FutureWarning message. Because I have some non-numeric values in the DataFrame, such as date and day of the week, I opted to put the numeric_only parameter in place and set to True after researching this and looking at other developers' recommendations. If this line of code doesn't run for the tester, it doesn't impact any code later in the project and has little impact upon the overall findings. It was a fishing expedition to search for any interesting correlations to explore. 
